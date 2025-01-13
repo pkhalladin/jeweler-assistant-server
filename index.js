@@ -9,7 +9,7 @@ application.get("/ping", (request, response) => {
     });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 application.listen(PORT, () => {
     console.log(`Server started at port ${PORT}...`);
 });
